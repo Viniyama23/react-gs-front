@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor:rgba(54, 163, 63, 0.765);
+	--mainColorFooter: #161e3e;
+	--mainColor2: #213dac;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--alertbtn: #ef1527;
+	--textColor: #eee;
+	--textColorSec: #29335c;
+}
+.dark {
+  --mainColor: #252525;
+}
+/* .menu-nav{
+    background-color: rgba(54, 163, 63, 0.765);
+    padding: 1%;
+    display: flex;
+    width: 100vw;
+    h1{
+        margin-left: 70px;
+        margin-right: 40vw;
+        
+        
+        a {
+            text-decoration: none;
+            color: #fff;
+            
+        }
+    }
+    ul{
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        
+        li a {
+           font-size: 1.2rem;
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+                color: #252525;
+            }
+        }
+    }
+}
+@media (max-width: 475px) {
+    .menu-nav{
+        padding: 8%;
+    }
+} */
+
+nav {
+    background-color: rgba(54, 163, 63, 0.765);
+    overflow: hidden;
+
+    h1 {
+        float: left;
+        margin-left: 12vw;
+        display: inline;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 2rem;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        margin-right: 12vw;
+    }
+
+    li {
+        float: right;
+        
+
+        a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 1.2rem;
+
+            &:hover {
+                text-decoration: none;
+                color: #252525;
+            }
+        }
+    }
+}
+
+@media (max-width: 475px) {
+    .menu-nav{
+        padding: 8%;
+    }
+}

@@ -1,0 +1,36 @@
+.box-vants{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vw;
+    .box-um{
+        display: flex;
+        .card-imagem{
+            // background-color: #555f45;
+            padding: 10px;
+        }
+        .card-imagem img{
+            height: 100px;
+            width: 110px;
+        }
+        .text{
+            // background-color: #555f45;
+            padding: 10px;
+            width: 35%;
+            // color: #fff;
+            h3{
+                margin-bottom: 5px;
+            }
+            p{
+                font-size: 1rem;
+                text-align: justify;
+            }
+        }
+    }
+    @media (max-width:850px) { 
+        flex-direction: column;
+        width: 100vw;
+        img{
+            max-width: 450px;
+        }
+    }
+}
