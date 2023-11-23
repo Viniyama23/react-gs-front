@@ -1,17 +1,17 @@
 
-# Health ID - Sistema de Gestão de Registros Médicos
+# Health Tech - Triagem remota com Eletrocardiograma(ECG)
 
-- RM:98237- Guilherme Brazioli
-- RM:98036-Henrique Pontes Olliveira
+- RM:99874- Rafael Carvalho mattos
+- RM:550908-Vinicius Santos Yamashita de Farias
   
-## Github : https://github.com/Pontessxx/Site-gs-healthid
+## Github : https://github.com/Viniyama23/react-gs-front
 
 ### login - teste ( utilizado por mim )
 email: teste1@gmail
 senha : a 
-para criar, apenas registre utilize os passos a baixo para rodar o backend e o site, após registrar irá te levar para o login, entre com o que criou e está logado. para sair basta das "logout" clicando no notebook
+para criar, apenas registre utilize os passos a baixo para rodar o backend e o site, após registrar irá te levar para o login, entre com o que criou e está logado. para sair basta das "logout" clicando no botão
 
-Este projeto, chamado Health ID, é um sistema inovador de gestão de registros médicos desenvolvido utilizando React com Vite no frontend e uma simulação de backend utilizando JSON Server. Abaixo estão as instruções detalhadas sobre como executar o projeto, inicializar o servidor JSON, e informações sobre o armazenamento seguro de senhas.
+Este projeto, chamado Health tech, é um sistema inovador de gestão de triagem remota desenvolvido utilizando React com Vite no frontend e uma simulação de backend utilizando JSON Server. Abaixo estão as instruções detalhadas sobre como executar o projeto, inicializar o servidor JSON, e informações sobre o armazenamento seguro de senhas.
 
 ## Pré-requisitos
 
@@ -22,13 +22,13 @@ Antes de começar, certifique-se de ter o [Node.js](https://nodejs.org/) instala
 1. Clone o repositório para o seu ambiente local:
 
 ```bash
-git clone https://seu-repositorio/health-id.git
+git clone https://seu-repositorio/react-gs-front.git
 ```
 
 2. Navegue até o diretório do projeto:
 
 ```bash
-cd health-id
+cd react-gs-front
 ```
 
 3. Instale as dependências:
@@ -77,7 +77,7 @@ npm run dev
 
 Isso iniciará o aplicativo React na porta padrão (3000) e estará pronto para ser acessado no navegador.
 
-Sinta-se à vontade para explorar e expandir este projeto de acordo com as necessidades específicas do seu ambiente de desenvolvimento e requisitos do sistema Health ID.
+Sinta-se à vontade para explorar e expandir este projeto de acordo com as necessidades específicas do seu ambiente de desenvolvimento e requisitos do sistema Health tech.
 
 # React + Vite
 
