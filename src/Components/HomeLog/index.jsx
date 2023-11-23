@@ -3,6 +3,7 @@ import React from 'react';
 import './HomeLof.scss'
 import { useState } from 'react';
 
+
 const Home = () => {
   const handleLogout = () => {
     // Limpar dados da sessão
